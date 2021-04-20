@@ -27,6 +27,9 @@ public class Maths {
         return 5 + 15 / 3 * 2 - 8 % 3;
     }
 
-
+    public static int multiplication(int a, int b){
+        int multiplication = a * b;
+        return multiplication;
+    }
 
 }
