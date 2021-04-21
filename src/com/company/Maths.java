@@ -32,4 +32,40 @@ public class Maths {
         return multiplication;
     }
 
+    public static void addMultiplySubstractDivide(int a, int b){
+        System.out.println("result of addition");
+        System.out.println(a+b);
+        System.out.println("result of multiplying");
+        System.out.println(a*b);
+        System.out.println("result of substraction");
+        System.out.println(a-b);
+        System.out.println("result of divide");
+        System.out.println(a/b);
+        System.out.println("result of modulus");
+        System.out.println(a%b);
+    }
+
+    public static void multiplicationTable(int a){
+        for(int i = 1; i<11;i++){
+            System.out.println(a*i);
+        }
+    }
+
+    public static void javaPattern(){
+        System.out.println("   J    a   v     v  a");
+        System.out.println("   J   a a   v   v  a a");
+        System.out.println("J  J  aaaaa   V V  aaaaa");
+        System.out.println(" JJ  a     a   V  a     a");
+    }
+
+    public static double equationE(){
+        double x =((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5));
+        return x;
+    }
+
+    public static double equationF(){
+        double x = 4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11));
+        return x;
+    }
+
 }

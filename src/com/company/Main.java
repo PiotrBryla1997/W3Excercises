@@ -35,7 +35,32 @@ public class Main {
 
         System.out.println(multiplication(5,9));
 
+        //6. Write a Java program to print the sum (addition), multiply, subtract, divide and remainder of two numbers.
+        //Test Data:
+        //Input first number: 125
+        //Input second number: 24
+
+        addMultiplySubstractDivide(125, 24);
+
+        //7. Write a Java program that takes a number as input and prints its multiplication table upto 10.
+
+        multiplicationTable(9);
+
+        //8. Write a Java program to display the following pattern.
+        javaPattern();
+
+        //9. Write a Java program to compute the specified expressions and print the output(with decimals).
+
+        System.out.println(equationE());
+
+        //10. Write a Java program to compute a specified formula.
+
+        System.out.println(equationF());
+
+
+
+
+
+
     }
-
-
 }
