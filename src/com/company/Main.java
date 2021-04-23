@@ -77,5 +77,24 @@ public class Main {
 
         variablesSwap(5, 0);
 
+        //16. Write a Java program to print a face.
+
+        face();
+
+        //17. Write a Java program to add two binary numbers.
+
+        addTwoBinaryNumbers(0b10, 0b11);
+
+        //18. Write a Java program to multiply two binary numbers.
+
+        multiplyTwoBinaryNumbers(0b10, 0b11);
+
+        //19. Write a Java program to convert a decimal number to binary number.
+
+        decimalNumberToBinaryNumber(5);
+
+        //20. Write a Java program to convert a decimal number to hexadecimal number.
+
+        decimalNumberToHexadecimalNumber(1445);
     }
 }

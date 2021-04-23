@@ -115,4 +115,31 @@ public class Maths {
         System.out.println("Variable b now equals: " + b);
     }
 
+    public static void face(){
+        System.out.println(" +\"\"\"\"\"+                                                 \n" +
+                "[| o o |]                                                \n" +
+                " |  ^  |                                                 \n" +
+                " | '-' |                                                 \n" +
+                " +-----+");
+    }
+
+    public static void addTwoBinaryNumbers(int a, int b){
+      int sum = a + b;
+        System.out.println(Integer.toBinaryString(sum));
+    }
+
+    public static void multiplyTwoBinaryNumbers(int a, int b){
+        int multiply = a * b;
+        System.out.println(Integer.toBinaryString(multiply));
+    }
+
+    public static void decimalNumberToBinaryNumber(int a){
+        System.out.println(Integer.toBinaryString(a));
+    }
+
+
+    public static void decimalNumberToHexadecimalNumber(int a){
+        System.out.println(Integer.toHexString(a));
+    }
+
 }
