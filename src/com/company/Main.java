@@ -57,10 +57,25 @@ public class Main {
 
         System.out.println(equationF());
 
+        //11. Write a Java program to print the area and perimeter of a circle.
 
+        perimeterAndAreaOfCircle(7.5);
 
+        //12. Write a Java program that takes three numbers as input to calculate and print the average of the numbers.
 
+        System.out.println(averageOfThreeNumbers(1,5,7));
 
+        //13. Write a Java program to print the area and perimeter of a rectangle.
+
+        areaAndPerimeterOfRectangle(5.6, 8.5);
+
+        //14. Write a Java program to print an American flag on the screen.
+
+        americanFlag();
+
+        //15. Write a Java program to swap two variables.
+
+        variablesSwap(5, 0);
 
     }
 }

@@ -68,4 +68,51 @@ public class Maths {
         return x;
     }
 
+    public static void perimeterAndAreaOfCircle(double radius){
+        double perimeter = 2 * Math.PI * radius;
+        double area = Math.PI * radius * radius;
+        System.out.println(perimeter);
+        System.out.println(area);
+    }
+
+    public static double averageOfThreeNumbers(double a, double b, double c){
+        double average = (a + b + c)/3;
+        return average;
+    }
+
+    public static void areaAndPerimeterOfRectangle(double width, double height){
+        double area = width * height;
+        double perimeter = 2 * (width+height);
+        System.out.println(area);
+        System.out.println(perimeter);
+    }
+
+    public static void americanFlag(){
+        System.out.println("* * * * * * ==================================                          \n" +
+                " * * * * *  ==================================                          \n" +
+                "* * * * * * ==================================                          \n" +
+                " * * * * *  ==================================                          \n" +
+                "* * * * * * ==================================                          \n" +
+                " * * * * *  ==================================                          \n" +
+                "* * * * * * ==================================                          \n" +
+                " * * * * *  ==================================                          \n" +
+                "* * * * * * ==================================                          \n" +
+                "==============================================                          \n" +
+                "==============================================                          \n" +
+                "==============================================                          \n" +
+                "==============================================                          \n" +
+                "==============================================                          \n" +
+                "==============================================");
+    }
+
+    public static void variablesSwap(int a, int b){
+        System.out.println("Variable a was equal to: " + a);
+        System.out.println("Variable b was equal to: " + b);
+        int c = a;
+        a = b;
+        b = c;
+        System.out.println("Variable a now equals: " + a);
+        System.out.println("Variable b now equals: " + b);
+    }
+
 }
