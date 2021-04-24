@@ -33,7 +33,7 @@ public class Main {
         //Input first number: 25
         //Input second number: 5
 
-        System.out.println(multiplication(5,9));
+        System.out.println(multiplication(5, 9));
 
         //6. Write a Java program to print the sum (addition), multiply, subtract, divide and remainder of two numbers.
         //Test Data:
@@ -63,7 +63,7 @@ public class Main {
 
         //12. Write a Java program that takes three numbers as input to calculate and print the average of the numbers.
 
-        System.out.println(averageOfThreeNumbers(1,5,7));
+        System.out.println(averageOfThreeNumbers(1, 5, 7));
 
         //13. Write a Java program to print the area and perimeter of a rectangle.
 
@@ -96,5 +96,59 @@ public class Main {
         //20. Write a Java program to convert a decimal number to hexadecimal number.
 
         decimalNumberToHexadecimalNumber(1445);
+
+        //21. Write a Java program to convert a decimal number to octal number.
+
+        decimalNumberToOctalNumber(15);
+
+        //22. Write a Java program to convert a binary number to decimal number.
+
+        System.out.println(binaryNumberToDecimalNumber("100"));
+
+        //23. Write a Java program to convert a binary number to hexadecimal number.
+
+        binaryNumberToHexadecimalNumber("1101");
+
+        //24. Write a Java program to convert a binary number to a Octal number.
+
+        binaryNumberToOctalNumber("111");
+
+        //25. Write a Java program to convert a octal number to a decimal number.
+
+        octalNumberToDecimalNumber("10");
+
+        //26. Write a Java program to convert a octal number to a binary number.
+
+
+        //27. Write a Java program to convert a octal number to a hexadecimal number.
+
+
+        //28. Write a Java program to convert a hexadecimal to a decimal number.
+
+
+        //29. Write a Java program to convert a hexadecimal to a binary number.
+
+
+        //30. Write a Java program to convert a hexadecimal to a octal number.
+
+
+        //31. Write a Java program to check whether Java is installed on your computer.
+
+
+        //32. Write a Java program to compare two numbers.
+
+
+        //33. Write a Java program and compute the sum of the digits of an integer.
+
+
+        //34. Write a Java program to compute the area of a hexagon.
+
+
+        //35. Write a Java program to compute the area of a polygon.
+
+
+
+
+
     }
 }
