@@ -160,8 +160,34 @@ public class Maths {
         System.out.println(Integer.toOctalString(Integer.parseInt(a, 2)));
     }
 
-    public static void octalNumberToDecimalNumber(String a){
+    public static void octalNumberToDecimalNumber(String a) {
         System.out.println(Integer.parseInt(a, 8));
+    }
+
+    public static void octalNumberToBinaryNumber(String a){
+        int number = Integer.parseInt(a, 8);
+        String binary = Integer.toBinaryString(number);
+        System.out.println(binary);
+    }
+
+    public static void octalNumberToHexadecimalNumber(String a){
+        System.out.println(Integer.toHexString(Integer.parseInt(a, 8)));
+    }
+
+    public static void hexadecimalNumberToDecimalNumber(String a){
+        System.out.println(Integer.parseInt(a, 16));
+    }
+
+    public static void hexadecimalNumberToBinaryNumber(String a){
+        int number = Integer.parseInt(a, 16);
+        String binary = Integer.toBinaryString(number);
+        System.out.println(binary);
+    }
+
+    public static void hexadecimalNumberToOctalNumber(String a){
+        int number = Integer.parseInt(a, 16);
+        String octal = Integer.toOctalString(number);
+        System.out.println(octal);
     }
 
 }

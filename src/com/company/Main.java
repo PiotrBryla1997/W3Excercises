@@ -119,18 +119,23 @@ public class Main {
 
         //26. Write a Java program to convert a octal number to a binary number.
 
+        octalNumberToBinaryNumber("7");
 
         //27. Write a Java program to convert a octal number to a hexadecimal number.
 
+        octalNumberToHexadecimalNumber("100");
 
         //28. Write a Java program to convert a hexadecimal to a decimal number.
 
+        hexadecimalNumberToDecimalNumber("25");
 
         //29. Write a Java program to convert a hexadecimal to a binary number.
 
+        hexadecimalNumberToBinaryNumber("37");
 
         //30. Write a Java program to convert a hexadecimal to a octal number.
 
+        hexadecimalNumberToOctalNumber("40");
 
         //31. Write a Java program to check whether Java is installed on your computer.
 
