@@ -1,5 +1,7 @@
 package com.company;
 
+import static java.lang.Math.*;
+
 public class Maths {
 
     public static int sum(int a, int b) {
@@ -188,6 +190,37 @@ public class Maths {
         int number = Integer.parseInt(a, 16);
         String octal = Integer.toOctalString(number);
         System.out.println(octal);
+    }
+
+    public static void compareTwoNumbers(int a, int b){
+        if(a > b){
+            System.out.println("First number is bigger than second number.");
+        } else if(a == b) {
+            System.out.println("Both numbers are equal.");
+        } else {
+            System.out.println("Second number is bigger than first number.");
+        }
+    }
+
+    public static void addDigitsOfInteger(int a){
+        int sum = 0;
+        String integer = Integer.toString(a);
+        for (int i = 0; i < integer.length(); i++) {
+            int x = Integer.parseInt(String.valueOf(integer.charAt(i)));
+            sum = sum + x;
+
+        }
+        System.out.println(sum);
+    }
+
+    public static void areaOfHexagon(int sideLength){
+        double area = (3 * sqrt(3) * pow(sideLength, 2))/2;
+        System.out.println(area);
+    }
+
+    public static void areaOfPolygon(int numberOfSides, int sideLength){
+        double area = (numberOfSides * pow(sideLength, 2))/(4*tan(PI/numberOfSides));
+        System.out.println(area);
     }
 
 }

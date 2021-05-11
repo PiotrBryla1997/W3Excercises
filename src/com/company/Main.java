@@ -1,6 +1,7 @@
 package com.company;
 
 import static com.company.Maths.*;
+import static com.company.Utilities.*;
 
 public class Main {
 
@@ -139,18 +140,23 @@ public class Main {
 
         //31. Write a Java program to check whether Java is installed on your computer.
 
+        javaVersions();
 
         //32. Write a Java program to compare two numbers.
 
+        compareTwoNumbers(3,2);
 
         //33. Write a Java program and compute the sum of the digits of an integer.
 
+        addDigitsOfInteger(9999);
 
         //34. Write a Java program to compute the area of a hexagon.
 
+        areaOfHexagon(6);
 
         //35. Write a Java program to compute the area of a polygon.
 
+        areaOfPolygon(7, 6);
 
 
 
